@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(58, 18, 68);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+h4{
+    text-align: center;
+    color: white;
+    padding: 20px ;
+}
+span{
+    color: rgb(225, 255, 0);
+}
+#b1{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+    color: rgb(58, 18, 68);
+    font-size: 20px;
+    font-family: serif;
+
+}
+#b1:hover{
+    height: 130px;
+    width: 130px;
+    border-radius: 14px;
+    font-size: 22px;
+
+
+}
+#b2{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+    color: rgb(58, 18, 68);
+    font-size: 20px;
+    font-family: serif;
+
+}
+#b2:hover{
+    height: 130px;
+    width: 130px;
+    border-radius: 14px;
+    font-size: 22px;
+
+
+}
+#b3{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+    color: rgb(58, 18, 68);
+    font-size: 20px;
+    font-family: serif;
+
+}
+#b3:hover{
+    height: 130px;
+    width: 130px;
+    border-radius: 14px;
+    font-size: 22px;
+
+
+}
+#b4{
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+    color: rgb(58, 18, 68);
+    font-size: 20px;
+    font-family: serif;
+
+}
+#b4:hover{
+    height: 130px;
+    width: 130px;
+    border-radius: 14px;
+    font-size: 22px;
+
+}
+
+
+ #all-buttons{ 
+
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+ }
+
+#fill-obj{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 90px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+#input1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#input2{
+    display: flex;
+    flex-direction: column;
+    
+}
+h5{
+    color: white;
+    font-family: Arial;
+}
+
+#fill-name{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 30px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+#fill-nat{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 30px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+
+#fill-gmail{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 30px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+
+#fill-contact{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 30px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+
+#fill-linkedin{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 30px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+
+#fill-education{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 90px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+
+#fill-skills{
+
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 90px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+}
+
+#fill-user-name{
+    
+    border: 2px solid blueviolet;
+    background-color: rgb(58, 18, 68);
+    height: 30px;
+    width: 200px;
+    color: rgba(249, 242, 242, 0.6);
+    border-radius: 5px;
+
+}
+
+#generate-btn{
+    height: 30px ;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgba(58, 18, 68,0.9);
+    font-family: monospace;   
+}
+
+
+#btn-div{
+    padding: 90px 15px 15px 400px;
+}
+
+
+#generate-btn:hover{
+    height: 35px;
+    width: 205px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+
+#resume-output{
+    border: 2px solid blueviolet;
+border-radius: 10px;
+color: whitesmoke;
+font-size: 20px;
+
+outline: none;
+
+}
+
+h2{
+    color: whitesmoke;
+}
+
+#shareable-link{
+    color: rgb(225, 255, 0);
+
+}

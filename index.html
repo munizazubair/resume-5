@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Resume Builder With Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+  
+  </head>
+  <body>
+    <header>
+      <h1>Generate Interactive Resume <span>For Yourself</span></h1>
+    </header>
+    <h4>
+      <span>**</span>All Sections Should Be Filled For Generate The Resume
+      <span>**</span>
+    </h4>
+    <div id="all-buttons">
+      <div id="input1">
+        <button id="b1"><b>Objective</b></button>
+        <div id="work1"></div>
+      </div>
+
+      <div id="input2">
+        <button id="b2"><b>Personal Information </b></button>
+        <div id="work2"></div>
+      </div>
+
+      <div id="input3">
+        <button id="b3"><b>Education</b></button>
+        <div id="work3"></div>
+      </div>
+
+      <div id="input4">
+        <button id="b4"><b>Skills</b></button>
+        <div id="work4"></div>
+
+       
+      </div>
+    </div>
+    <div id="btn-div">
+      <button id="generate-btn"><b>Generate Resume</b></button>
+  </div>
+  <div id="resume-output" contenteditable="true"></div>
+  <div id="shareable-link-container" style="display: none;">
+      <h2>Shareable Link:</h2>
+      <a id="shareable-link" href="#" target="_blank"></a>
+  </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
